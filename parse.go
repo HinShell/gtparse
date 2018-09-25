@@ -12,11 +12,11 @@ import (
 
 type Datas struct {
 	Field1 string `json:"date"`
-	Field2 int `json:"yslowgrade"`
-	Field3 int `json:"pagespeedgrade"`
-	Field4 int`json:"totalsize"`
-	Field5 int `json:"totalrequests"`
-	Field6 int `json:"fullyloaded"`
+	Field2 string `json:"yslowgrade"`
+	Field3 string `json:"pagespeedgrade"`
+	Field4 string `json:"totalsize"`
+	Field5 string `json:"totalrequests"`
+	Field6 string `json:"fullyloaded"`
 }
 
 func main() {
