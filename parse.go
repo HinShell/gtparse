@@ -28,7 +28,7 @@ func main() {
 		if error == io.EOF {
 			break
 		} else if error != nil {
-			log.Fata(error)
+			log.Fatal(error)
 		}
 		data = append(data, Datas{
 			Field1: line[0],
@@ -39,6 +39,6 @@ func main() {
 			Field6: line[17],
 		})
 	}
-	dataJson, _ := json.Marshal(people)
-	fmt.Println(string(data.json))
+	dataJson, _ := json.Marshal(data)
+	fmt.Println(string(dataJson))
 }
