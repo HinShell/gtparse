@@ -36,7 +36,7 @@ func main() {
 			Field3: line[2],
 			Field4: line[4],
 			Field5: line[5],
-			Field6: line[17],
+			Field6: line[16],
 		})
 	}
 	dataJson, _ := json.Marshal(data)
