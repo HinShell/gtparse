@@ -1,7 +1,5 @@
 package main
 
-Date,"YSlow Grade (%)","PageSpeed Grade (%)","Onload Time (s)","Total Size (bytes)","Total Requests","TTFB (s)","HTML Size (bytes)","Redirect duration (ms)","Connection duration (ms)","Backend duration (ms)","DOM interactive (ms)","DOM content loaded (ms)","DOM content loaded duration (ms)","Onload (ms)","Onload duration (ms)","Fully loaded (ms)","First paint (ms)","RUM Speed Index","First contentful paint (ms)","Report slug"
-
 import (
 	"bufio"
 	"encoding/json"
