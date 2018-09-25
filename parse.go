@@ -33,9 +33,9 @@ func main() {
 		data = append(data, Datas{
 			Field1: line[0],
 			Field2: line[1],
-			Field3: line[3],
-			Field4: line[5],
-			Field5: line[6],
+			Field3: line[2],
+			Field4: line[4],
+			Field5: line[5],
 			Field6: line[17],
 		})
 	}
